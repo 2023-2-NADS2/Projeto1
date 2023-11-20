@@ -16,7 +16,7 @@
 ## 💬 Descrição do Projeto
 
 <p align="center">
-<img src="imagens/jpg.jfif" alt="WWC" border="0">
+<img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0">
 -
 </p>
 
