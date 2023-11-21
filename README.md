@@ -11,7 +11,19 @@
 ## Integrantes: <a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ana Flávia Lorêdo</a>,<a href="https://www.linkedin.com/in/eduardo-fraga-santos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Eduardo Fraga</a>, <a href="https://www.linkedin.com/in/gabriel-berto-167475141?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Gabriel Berto</a>, <a href="www.linkedin.com/in/nicolle-costa-a85100211">Nicolle Costa</a>, <a href="">Paulo Carvalho</a>
 
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander</a>, <a href="">Adriano Felix Valente</a>, <a href="">Eduardo Savino</a>, <a href="">Aimar Martins Lopes</a>
+## Professores Orientadores: 
+<br>
+<a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander</a>
+<br>
+<a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>
+<br>
+<a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Eduardo Savino</a>
+<br>
+<a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins Lopes</a>
+<br>
+<a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>
+
+
 
 ## 💬 Descrição do Projeto
 
@@ -22,37 +34,6 @@
 
 O projeto Cem Vezes Mais tem a missão de, por meio do esporte, cultura e educação, ajudar na transformação de vidas e inclusão social de crianças, adolescentes e jovens de comunidades vulneráveis. Com a visão de resgatar sonhos e restabelecer a esperança de crianças, adolescentes e jovens em situação de vulnerabilidade, afim de oferecer-lhes um presente mais digno e um futuro mais promissor.
 <br><br>
-
-## 🛠 Estrutura de pastas
-
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠️ Desenvolvimento
 
@@ -72,6 +53,11 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>UX/UI Design</b>
 
+- Protótipo: https://www.figma.com/file/4tmVlAvAYSVIkPdUMiU1Ph/Prot%C3%B3tipo-100X%2B?type=design&node-id=322-104&mode=design&t=qjlBxHsj15hDznlc-0
+
+- Wireframe: https://www.figma.com/file/NftgAU3DyKo483b8sWWfc1/Wireframe-Cem-Vezes-Mais?type=design&node-id=0-1&mode=design&t=yMRMjLfpaybSV5wA-0
+
+- Design System.
 
 
 ## 💻 Configuração para Desenvolvimento
@@ -118,6 +104,38 @@ node app.js
 * 0.3.0 - 10/11/2023
     * Revisão.  
     * Trabalho na reta final.
+ 
+ 
+## 🛠 Estrutura de pastas
+
+-Raiz<br>
+|<br>
+|-->documentos<br>
+  &emsp;|-->antigos<br>
+  &emsp;|Documentação.docx<br>
+|-->executáveis<br>
+  &emsp;|-->windows<br>
+  &emsp;|-->android<br>
+  &emsp;|-->HTML<br>
+|-->imagens<br>
+|-->src<br>
+  &emsp;|-->Backend<br>
+  &emsp;|-->Frontend<br>
+|readme.md<br>
+
+A pasta raiz contem dois arquivos que devem ser alterados:
+
+<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+
+Há também 4 pastas que seguem da seguinte forma:
+
+<b>documentos</b>: Toda a documentação estará nesta pasta.
+
+<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+
+<b>imagens</b>: Imagens do sistema
+
+<b>src</b>: Pasta que contém o código fonte.
 
 ## 📋 Licença/License
 
