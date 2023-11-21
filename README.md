@@ -7,7 +7,7 @@
 
 ## WWC - WebWave Creations 
 <p align="center">
-<img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0"  width="500px" height="500px">
+<img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0"  width="400px" height="400px">
 -
 </p>
 
