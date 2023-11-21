@@ -30,8 +30,6 @@
 <br>
 <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>
 <br>
-<a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Eduardo Savino</a>
-<br>
 <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins Lopes</a>
 <br>
 <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>
