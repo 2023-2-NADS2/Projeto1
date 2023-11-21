@@ -135,8 +135,6 @@ node app.js
   &emsp;|-->PI_CemVezesMais.pdf<br>
 |-->imagens<br>
 |-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |-->readme.md<br>
 
 ## 📋 Licença/License
