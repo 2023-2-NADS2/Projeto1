@@ -6,9 +6,10 @@
 
 
 ## WWC - WebWave Creations 
+<p>
 <img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0">
-
 -
+</p>
 
 <b> Integrantes: </b>
 
