@@ -26,8 +26,6 @@
 
 ## Professores Orientadores: 
 <br>
-<a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander</a>
-<br>
 <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>
 <br>
 <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins Lopes</a>
