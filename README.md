@@ -7,7 +7,7 @@
 # Cem Vezes Mais
 
 <p align="center">
-<img src="Imagens/Logo/logoONG.jfif" alt="Cem Vezes Mais" border="0"></a>
+<img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0"></a>
 </p>
 
 ## WWC - WebWave Creations Logo projeto
