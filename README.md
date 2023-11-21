@@ -37,7 +37,7 @@
 ## 💬 Descrição do Projeto
 
 <p align="center">
-<img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0">
+<img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0" width="40px" height="40px">
 -
 </p>
 
