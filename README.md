@@ -52,6 +52,9 @@ O projeto Cem Vezes Mais tem a missão de, por meio do esporte, cultura e educa�
 
 - CSS: Estilização da página web.
 
+- Bootstrap: Aprimoramento da aplicação.
+
+
 <b>Back-end</b>
 
 - Node.js: Ferramenta para a execução do JavaScript
