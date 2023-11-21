@@ -5,7 +5,7 @@
 </p>
 
 
-## WWC - WebWave Creations Logo projeto
+## WWC - WebWave Creations 
 <img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0">
 
 <b> Integrantes: </b>
