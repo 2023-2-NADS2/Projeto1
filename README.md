@@ -14,8 +14,7 @@
 
 <b> Integrantes: </b>
 
-<br><br>
-<a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ana Flávia Lorêdo</a>
+<a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><b>Ana Flávia Lorêdo</b></a>
 <br><br>
 <a href="https://www.linkedin.com/in/eduardo-fraga-santos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Eduardo Fraga</a>
 <br><br>
