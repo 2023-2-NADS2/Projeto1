@@ -163,7 +163,12 @@ Há também 4 pastas que seguem da seguinte forma:
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
+1. <https://www.npmjs.com/package/express>
+2. <https://www.npmjs.com/package/handlebars-layouts>
+3. <https://www.npmjs.com/package/bcrypt>
+4. <https://www.npmjs.com/package/cookie-parser>
+5. <https://www.npmjs.com/package/jsonwebtoken>
+6. <https://www.npmjs.com/package/path>
+7. <https://docs.docker.com/get-started/overview/>
+8. <https://www.w3schools.com/mysql/mysql_sql.asp>
 
