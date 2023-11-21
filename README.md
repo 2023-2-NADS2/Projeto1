@@ -1,13 +1,13 @@
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"  width="250rem" height="250rem"></a>
+<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"  width="300rem" height="300rem"></a>
 </p>
 
 
 ## WWC - WebWave Creations 
 <p align="center">
-<img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0"  width="250rem" height="250rem">
+<img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0"  width="300rem" height="300rem">
 -
 </p>
 
@@ -37,7 +37,7 @@
 ## 💬 Descrição do Projeto
 
 <p align="center">
-<img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0" width="250rem" height="250rem">
+<img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0" width="300rem" height="300rem">
 -
 </p>
 
