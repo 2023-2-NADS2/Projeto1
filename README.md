@@ -7,7 +7,7 @@
 # Cem Vezes Mais
 
 <p align="center">
-<a href= "https://www.fecap.br/"><img src="Imagens/Logo/logoONG" alt="Cem Vezes Mais" border="0"></a>
+<img src="Imagens/Logo/logoONG" alt="Cem Vezes Mais" border="0"></a>
 </p>
 
 ## WWC - WebWave Creations Logo projeto
