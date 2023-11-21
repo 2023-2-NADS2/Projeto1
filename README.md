@@ -8,6 +8,8 @@
 ## WWC - WebWave Creations 
 <img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0">
 
+-
+
 <b> Integrantes: </b>
 
 <a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ana Flavia Lorêdo</a>
