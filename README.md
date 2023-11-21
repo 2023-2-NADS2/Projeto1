@@ -45,7 +45,7 @@
 </p>
 
 O projeto Cem Vezes Mais tem a missão de, por meio do esporte, cultura e educação, ajudar na transformação de vidas e inclusão social de crianças, adolescentes e jovens de comunidades vulneráveis. Com a visão de resgatar sonhos e restabelecer a esperança de crianças, adolescentes e jovens em situação de vulnerabilidade, afim de oferecer-lhes um presente mais digno e um futuro mais promissor. <br>
-Tendo esses motivos em vista, a aplicação produzida tem por objetivo maximizar a disseminação de informações referentes ao projeto social, fazendo com que o mesmo possa alcançar uma maior visibilidade e fundos em prol da causa.
+Tendo esses motivos em vista, a aplicação produzida possui o objetivo maximizar a disseminação de informações referentes ao projeto social, fazendo com que o mesmo possa alcançar uma maior visibilidade e fundos em prol da causa.
 
 
 ## 🛠️ Desenvolvimento
