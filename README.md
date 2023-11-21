@@ -12,7 +12,17 @@
 
 ## WWC - WebWave Creations Logo projeto
 
-## Integrantes: <a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ana Flávia Lorêdo</a>,<a href="https://www.linkedin.com/in/eduardo-fraga-santos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Eduardo Fraga</a>, <a href="https://www.linkedin.com/in/gabriel-berto-167475141?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Gabriel Berto</a>, <a href="www.linkedin.com/in/nicolle-costa-a85100211">Nicolle Costa</a>, <a href="">Paulo Carvalho</a>
+## Integrantes:
+
+<a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ana Flávia Lorêdo</a>
+<br>
+<a href="https://www.linkedin.com/in/eduardo-fraga-santos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Eduardo Fraga</a>
+<br>
+<a href="https://www.linkedin.com/in/gabriel-berto-167475141?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Gabriel Berto</a>
+<br>
+<a href="www.linkedin.com/in/nicolle-costa-a85100211">Nicolle Costa</a>
+<br>
+<a href="">Paulo Carvalho</a>
 
 
 ## Professores Orientadores: 
