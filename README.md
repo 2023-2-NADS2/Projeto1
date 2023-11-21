@@ -10,7 +10,7 @@
 
 <b> Integrantes: </b>
 
-<a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ana Flávia Lorêdo</a>
+<a href="https://www.linkedin.com/in/ana-flavia-lor%C3%AAdo-9629b5210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ana Flavia Lorêdo</a>
 <br>
 <a href="https://www.linkedin.com/in/eduardo-fraga-santos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Eduardo Fraga</a>
 <br>
@@ -38,7 +38,7 @@
 ## 💬 Descrição do Projeto
 
 <p align="center">
-src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0">
+<img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0">
 -
 </p>
 
