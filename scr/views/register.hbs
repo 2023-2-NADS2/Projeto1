@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/login.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/T0r5M2H/logo-ong.png">
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="login-img">
+        <img src="https://i.ibb.co/HTcvrMt/logo-ong.png" class="image" alt="logo" />
+      </div>
+
+      <div class="login">
+        <div class="login-card text-center">
+          <h2>CADASTRO</h2>
+          <form action="/auth/register" method="POST">
+           <div class="textfield">
+              <label for="name">Nome</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="digite seu email" />
+            </div>
+            <div class="textfield">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="digite seu email" />
+            </div>
+            <div class="textfield">
+              <label for="password">Senha</label>
+              <input
+                type="password" class="form-control" id="password" name="password"
+                placeholder="digite sua senha"
+              />
+            </div>
+
+            <div class="textfield">
+              <label for="passwordConfirm"> Confirmar Senha</label>
+              <input
+                type="password" class="form-control" id="passwordConfirm" name="passwordConfirm"
+                placeholder="repita sua senha"
+              />
+              <button type="submit" class="form-control bg-dark mt-3 text-white">Cadastrar</button>
+            </div>
+          
+            <a href="/">voltar a página inicial</a>
+          </form>
+            {{#if message}}
+
+            <h4 class="alert alert-danger mt-4">{{message}}</h4>
+
+            {{/if}}
+        </div>
+      </div>
+
+     <!-- /Formulário de cadastro -->
+
+    </div>
+
+  <!-- /Formulário de cadastro -->
+
+
+  <!-- JS Bootstrap 4.6 -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<!-- /JS Bootstrap -->
+
+<div vw class="enabled">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+		  <div class="vw-plugin-top-wrapper"></div>
+		</div>
+	  </div>
+	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	  <script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+	</script>
+
+  
+  </body>
+</html>

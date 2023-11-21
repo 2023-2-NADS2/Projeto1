@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;700&display=swap');
+
+*{
+    font-family: 'Inknut Antiqua', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background: #FFC400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-img{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image{
+    width: 35vw;
+    
+}
+
+.login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 30px;
+    background: #ffff;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px #ce9f04;
+
+}
+
+.login-card h2{
+    color: black;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFC400;
+    color:black;
+    font-size: 12pt;
+    box-shadow: #ce9f04;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield input::placeholder{
+    color: #ce9f04;
+}
+
+.login-btn{
+    width: 100%;
+    height: 50px;
+    padding: 13px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #f7a103;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ce9f04;
+}
+
+@media (max-width: 950px){
+    .login-card{
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 600px){
+    .content{
+        flex-direction:column
+    }
+
+    .login-img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .login{
+        width: 100%;
+        height: auto;
+    }
+
+    .image{
+        width: 50vw;
+    }
+
+    .login-card{
+        width: 90%;
+    }
+}

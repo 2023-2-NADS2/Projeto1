@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/doacoes.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="icon" type="image/x-icon" href="https://i.ibb.co/T0r5M2H/logo-ong.png">
+    <title>Doar</title>
+</head>
+<body>
+
+	  <!-- menu -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+				<div class="container">
+					<a class="navbar-brand" href="/">
+										<img src="https://i.ibb.co/T0r5M2H/logo-ong.png" alt="" style="max-width: 100px; max-height: 50px;">
+								</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" href="/">Início</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/gallery">Galeria</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/contato">Contato</a>
+							</li>
+
+							<li class="nav-item">
+								<button class="btn-donate"><a class="nav-link" href="/donation">Doar</a></button>
+							</li>
+
+							{{#if user}}
+							<li class="nav-item">
+								<a class="nav-link" href="/profile">Minha Conta</a>
+							</li >
+							<li class="nav-item">
+								<a class="nav-link" href="/auth/logout">Sair</a>
+							</li>
+							{{else}}
+							<li class="nav-item">
+								<a class="nav-link" href="login">Login</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="register">Cadastro</a>
+							</li>
+							{{/if}}
+							
+						</ul>
+					</div>
+				</div>
+		 </nav>
+		<!-- /menu -->
+
+    <h1 id="title-doacoes">Colabore com a nossa causa!</h1>
+
+	<main>
+		<div class="card-doacoes">
+			<a href="/donationPagamento" target="_blank"><img id="card-valor1" src="https://i.ibb.co/0cN4Try/Doa-oes-10-reais.jpg" alt="card1"></a>
+			
+		  </div>
+	</main>
+
+
+
+
+	 <!-- Doações Pix -->
+	<div class="payment-text">
+		<p>Também aceitamos doações de qualquer valor através de nosso Pix.</p>
+		<p id="pix-title">Pix: cemvezesmais2022@gmail.com</p>
+	</div>
+	 <!-- /Doações Pix -->
+
+	<!-- footer-->
+	<footer>
+		<div class="footer-content">
+			<div id="contacts">
+				<!-- Texto do rodapé -->
+				<img class="logo-footer" src="https://i.ibb.co/T0r5M2H/logo-ong.png" alt="logo-footer">
+	
+				<!-- social links -->
+				<div id="social_links">
+					<a href="https://instagram.com/projetosocial100vezesmais?igshid=MzMyNGUyNmU2YQ==" class="footer-link" id="instagram">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			
+			
+			<!-- Lista de links-->
+			<ul class="footer-list">
+				<li>
+					<h3>Mapa do Site</h3>
+				</li>
+				<li>
+					<a href="/" class="footer-link">Início</a>
+				</li>
+				<li>
+					<a href="/gallery" class="footer-link">Galeria</a>
+				</li>
+				<li>
+					<a href="/contato" class="footer-link">Contato</a>
+				</li>
+				<li>
+					<a href="/donation" class="footer-link">Doar</a>
+				</li>
+			</ul>
+	
+			<!-- Lista de links do blog-->
+			<ul class="footer-list">
+          <li>
+            <h3>Informações</h3>
+          </li>
+          <li>
+            <a href="/termosDeUso" class="footer-link">Termos de Uso</a>
+          </li>
+          <li>
+            <a href="/privacidade" class="footer-link">Política de Privacidade</a>
+          </li>
+			  </ul>
+		</div>
+	
+		<!-- Direitos autorais-->
+		<div class="copyright">
+			Cem Vezes Mais © 2023 todos direitos reservados
+		</div>
+	</footer>
+	<!-- /footer-->
+
+	
+	<!-- Acessibilidade Libras -->
+	<div vw class="enabled">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+		  <div class="vw-plugin-top-wrapper"></div>
+		</div>
+	</div>
+	<!-- /Acessibilidade Libras -->
+
+	<!-- JS Acessibilidade -->
+	<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	<script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+	</script>
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;700&display=swap');
+
+* {
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.container-galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 300px;
+    padding: 40px;
+    grid-gap: 10px;
+}
+
+.conteudo-galeria{
+    position: relative;
+}
+
+.conteudo-galeria .img-galeria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.conteudo-galeria .legenda{
+    position: absolute;
+    color: #000000;
+	background: #ffc400b0;
+    border-left: 3px solid #FFC400;
+    padding: 6px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.titulo{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo h1{
+    color: #000000;
+}
+.custom-navbar{
+    background-color: #FFC400;
+}
+.custom-navbar{
+    background: #FFC400;
+   
+}
+.navbar-nav a {
+	font-size: 16px;
+	font-weight: 500;
+    color: black;
+}
+.navbar-nav .nav-item {
+    margin-right: 15px; 
+}
+.navbar-nav .nav-item :hover{
+	color: rgb(66, 65, 65);
+}
+
+.btn-donate{
+	border-radius: 15px;
+	width: 72px;
+	height: 42px;
+	border: none;
+	background-color: #faa200;
+}
+.btn-donate:hover{
+	background-color: #faab19;
+}
+
+
+
+/* Estilos para a seção do rodapé */
+footer {
+    width: 100%;
+    color: white;
+    box-shadow: 0 0.1rem 0.5rem #686767;
+}
+
+/* Estilização dos links no rodapé */
+.footer-link {
+    text-decoration: none;
+}
+
+/* Estilos para o conteúdo do rodapé */
+.footer-content {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+/* Estilização dos ícones de mídia social no rodapé */
+#social_links {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+/* Estilização para o cabeçalho de contatos no rodapé */
+#contacts {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+	display: grid;
+	place-items: center;
+}
+
+/* Estilos dos ícones de mídia social no rodapé */
+#social_links .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: black;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+/* Tamanhos e estilos dos ícones de mídia social */
+#social_links .footer-link i {
+    font-size: 1.25rem;
+}
+
+/* Estilo para o ícone do Instagram no rodapé */
+#instagram {
+    background: #FFC400;
+}
+
+
+
+/* Estilização das listas no rodapé */
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+	
+}
+
+/* Estilos para os links nas listas do rodapé */
+.footer-list .footer-link {
+    color: white;
+    transition: all 0.4s;
+}
+
+/* Efeito hover para os links nas listas do rodapé */
+.footer-list .footer-link:hover {
+    color:#FFC400;
+}
+
+/* Estilo para o texto de direitos autorais*/
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 7, 7);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+.logo-footer{
+	width: auto;
+	height: 150px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  
+@media(max-width:700px){
+    .container-galeria{
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: 50vh;
+    }
+    .navbar-nav {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 426px) {
+    /* Layout de 1 coluna para o conteúdo do rodapé */
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+	#contacts{
+		display: grid;
+		place-items: center;
+	}
+    .navbar-nav {
+		text-align: center;
+	}
+}

@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;700&display=swap');  
+*{
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.form-container{
+   margin-left: 60%;
+   margin-top: 80px; 
+   margin-bottom: 132px;
+    align-items: center;    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-button{
+ display: flex;
+ align-items: center;
+}
+
+.form-button button:hover{
+    background-color: #ffb937;
+}
+.input-box{
+    display: flex;
+    padding: 5;
+    flex-direction: column;
+    margin-bottom: 5%;
+    width: 120%;  
+}
+#contactpage-title{
+    text-wrap: wrap;
+    margin-top: 4%;
+    justify-content: center;
+    margin-left: 11%;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+#form-title{
+    justify-content: center;
+    font-size: 45px;
+}
+.input-box input{
+    display: flex;
+    background-color: #FFC400;
+    margin: 0.6rem 0;
+    border-radius: 5px;
+    border: none;
+    padding: 1.0rem 1.2rem;  
+
+}
+.form-button button{
+    width: 50%;
+    border-radius: 5px;
+    padding:0.25rem;
+    background: #faa200;
+    border: none;
+
+}
+.input-message{
+ border-radius: 5px;
+ background-color: #FFC400; 
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 5%;
+ margin: 0.6rem 0;
+ border: none;
+ padding: 1.0rem 1.2rem;
+}
+
+.input-box input::placeholder{
+    color: #ce9f04;
+}
+
+.input-message::placeholder{
+    color: #ce9f04;
+}
+
+
+.form-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.info-contato{
+    font-family: sans-serif;
+    font-style: bold;
+    margin-left: 70px;
+    margin-top: 35px;
+
+}
+.mapBox{
+    position: relative;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+#mapsize{
+    width: 590px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    
+}
+#icontel{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+#iconemail{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+#iconendereco{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+
+.custom-navbar{
+    background-color: #FFC400;
+}
+.custom-navbar{
+    background: #FFC400;
+   
+}
+.navbar-nav a {
+	font-size: 16px;
+	font-weight: 500;
+    color: black;
+}
+.navbar-nav .nav-item {
+    margin-right: 15px; 
+}
+.navbar-nav .nav-item :hover{
+	color: rgb(66, 65, 65);
+}
+.btn-donate{
+	border-radius: 15px;
+	width: 72px;
+	height: 42px;
+	border: none;
+	background-color: #faa200;
+}
+.btn-donate:hover{
+	background-color: #faab19;
+}
+
+
+
+.logo-footer{
+	width: auto;
+	height: 150px;
+}
+/* Estilos para a seção do rodapé */
+footer {
+    width: 100%;
+    color: white;
+    box-shadow: 0 0.1rem 0.5rem #686767;
+}
+
+/* Estilização dos links no rodapé */
+.footer-link {
+    text-decoration: none;
+}
+
+/* Estilos para o conteúdo do rodapé */
+.footer-content {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 3.5rem;
+    width: 100%;
+}
+
+/* Estilização dos ícones de mídia social no rodapé */
+#social_links {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+/* Estilização para o cabeçalho de contatos no rodapé */
+#contacts {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+	display: grid;
+	place-items: center;
+}
+
+/* Estilos dos ícones de mídia social no rodapé */
+#social_links .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: black;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+/* Tamanhos e estilos dos ícones de mídia social */
+#social_links .footer-link i {
+    font-size: 1.25rem;
+}
+
+/* Estilo para o ícone do Instagram no rodapé */
+#instagram {
+    background: #FFC400;
+}
+
+/* Estilização das listas no rodapé */
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+	
+}
+
+/* Estilos para os links nas listas do rodapé */
+.footer-list .footer-link {
+    color: white;
+    transition: all 0.4s;
+}
+
+/* Efeito hover para os links nas listas do rodapé */
+.footer-list .footer-link:hover {
+    color:#FFC400;
+}
+
+
+
+/* Estilo para o texto de direitos autorais*/
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 7, 7);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-image { 
+		height: auto;
+	}
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+	.about-img{
+		width: 100%;
+	}
+
+}
+@media only screen and (max-width: 767px) {
+	.carousel-image { 
+		height: 300px;
+	}
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 14px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 10px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.btn{
+		width: auto;
+		font-size: 10px;
+	}
+	/* Estilização do conteúdo do rodapé  */
+	.footer-content {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
+	#contacts{
+		display: grid;
+		place-items: center;
+	}
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #mapsize{
+        width: 450px;
+        height: 300px;
+        display: flex;
+        margin-right: 30px;
+    
+    }
+    .form-container{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 350px;
+    height: 330px;
+    display: flex
+    }
+    input, textarea{
+        width: 350px;
+        padding: 10px;
+    }
+    input[type="submit"]{
+        width: 220px;
+        padding: 7px;
+    }
+    #form-title{
+        font-size: 30px;
+    }
+    #contactpage-title{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    
+    }
+    @media only screen and (max-width: 880px) {
+        .navbar-nav {
+            text-align: center;
+        }
+        #mapsize{
+            width: 300px;
+            height: 200px;
+            display: flex;
+            margin-right: 30px;
+            margin-bottom: 60px;
+        
+        }
+        .form-container{
+        flex-wrap: wrap;
+        margin-top: 90px;
+        margin-left: 50px;
+        width: 350px;
+        height: 330px;
+        display: flex
+        }
+        input, textarea{
+            width: 300px;
+            padding: 10px;
+        }
+        input[type="submit"]{
+            width: 220px;
+            padding: 7px;
+        }
+        .footer-content {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        #contacts{
+            display: grid;
+            place-items: center;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        /* Layout de 1 coluna para o conteúdo do rodapé */
+        .footer-content {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 3rem 2rem;
+        }
+        #contacts{
+            display: grid;
+            place-items: center;
+        }
+    }
+
+
+

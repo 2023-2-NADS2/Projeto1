@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Public -->
+    <link rel="stylesheet" href="/public.css">
+    <!-- CSS Bootstrap -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS Icons -->
+		<link rel="icon" type="image/x-icon" href="https://i.ibb.co/T0r5M2H/logo-ong.png">
+		
+
+    <title>Início</title>
+</head>
+<body>
+	<!-- navegação -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+        <img src="https://i.ibb.co/RTXnCM3/logo-ong.png" alt="" style="max-width: 100px; max-height: 50px;">
+      </a> 
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="/">Início</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/gallery">Galeria</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/contato">Contato</a>
+					</li>
+
+					<li class="nav-item">
+						<button class="btn-donate"><a class="nav-link" href="/donation">Doar</a></button>
+					</li>
+
+          {{#if user}}
+          <li class="nav-item">
+            <a class="nav-link" href="/profile">Minha Conta</a>
+          </li >
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/logout">Sair</a>
+          </li>
+          {{else}}
+          <li class="nav-item">
+            <a class="nav-link" href="login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register">Cadastro</a>
+          </li>
+          {{/if}}
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <!-- carousel -->
+	<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+		<div class="carousel-indicators">
+			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="..." class="d-block w-100 carousel-image" src="https://i.ibb.co/zV5GSNs/IMG-8623.jpg">
+				<div class="carousel-caption">
+					<h5>Faça parte da luta</h5>
+					<p>Juntos podemos ajudar a resgatar sonhos e restabelecer a esperança.</p>
+					<p><a class="btn btn-warning mt-3" href="/donation">Doe Agora</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100 carousel-image" src="https://i.ibb.co/44pdzB7/IMG-8622.jpg">
+				<div class="carousel-caption">
+					<h5>Seja Voluntário</h5>
+					<p>Precisamos de profissionais de variadas áreas dispotos a contribuir em prol do objetivo comum.</p>
+					<p><a class="btn btn-warning mt-3" href="/contato">Entre em contato</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100 carousel-image" src="https://i.ibb.co/CMwtF2p/IMG-8627.jpg">
+				<div class="carousel-caption">
+					<h5>Inspiração</h5>
+					<p>Por meio do esporte, cultura, educação e fé, podemos transformar vidas de crianças e adolescentes.</p>
+					<p><a class="btn btn-warning mt-3" href="/donation">Doe Agora</a></p>
+				</div>
+			</div>
+		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+	
+    
+    </div>
+    
+    <!-- Nossa Missão-->
+	<section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="https://i.ibb.co/T0r5M2H/logo-ong.png"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-4 pt-5 text-center">
+					<div class="about-text">
+						<h2>A nossa Missão</h2>
+						<p> O Projeto Cem Vezes Mais tem como objetivo oferecer aulas gratuitas de esportes variados, palestras, assistência psicológica,
+							orientação jurídica, cursos e reforço escolar, atividades que além do caráter assistencialista, tem o caráter de <strong>inclusão social através do esporte e de formação de pessoas.</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	</section>
+
+    <!-- seção de projetos -->
+	<section class="projeto section-padding" id="projetos">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-4">
+						<h2>Nossos Projetos</h2>
+							
+					</div>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-4">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="https://i.ibb.co/M6yXbTf/IMG-8626.jpg"></div>
+							<h3 class="card-title">Aulas</h3>
+							<p class="lead"> De boxe a jiu-jitsu, passando por breaking e reforço escolar, oferecemos uma gama de cursos e aulas gratuitas.
+							</p>
+							<a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODY4MDIzOTYwNzg2ODIx?story_media_id=2988230517385117652&igshid=Y2NkYjk0MDhjYg=="target="_blank" rel="noopener noreferrer">
+							<button class="btn bg-warning text-black" >Saiba Mais</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-4">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="https://i.ibb.co/tJGZ4Y6/IMG-8628.jpg"></div>
+							<h3 class="card-title">Arrecadações</h3>
+							<p class="lead"> Além de arrecadarmos materiais para as aulas, também buscamos angariar doações para eventos.
+              </p>
+							<a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTMwMDU3MDk5MjU3MTc0?story_media_id=2883751817662297612&igshid=Y2NkYjk0MDhjYg==" target="_blank" rel="noopener noreferrer">
+							<button class="btn bg-warning text-black mt-4">Saiba Mais</button>
+							</a>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-4">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src="https://i.ibb.co/dW73Cf5/IMG-8621.jpg"></div>
+							<h3 class="card-title">Eventos</h3>
+							<p class="lead"> De palestras educacionais a celebrações em datas especiais, nosso projeto enriquece vidas e espalha alegria.
+								
+              </p><a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MjU0NTYwOTYwMTAyOTg5?story_media_id=2900511587246601975&igshid=Y2NkYjk0MDhjYg==" target="_blank" rel="noopener noreferrer">
+							<button  class="btn bg-warning text-black">Saiba Mais</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	<!-- footer-->
+	<footer>
+		<div class="footer-content">
+			<div id="contacts">
+				<!-- Texto do rodapé -->
+				<img class="logo-footer" src="https://i.ibb.co/T0r5M2H/logo-ong.png" alt="logo-footer">
+	
+				<!-- social links -->
+				<div id="social_links">
+					<a href="https://instagram.com/projetosocial100vezesmais?igshid=MzMyNGUyNmU2YQ==" class="footer-link" id="instagram">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			
+			
+			<!-- Lista de links-->
+			<ul class="footer-list">
+				<li>
+					<h3>Mapa do Site</h3>
+				</li>
+				<li>
+					<a href="/" class="footer-link">Início</a>
+				</li>
+				<li>
+					<a href="/gallery" class="footer-link">Galeria</a>
+				</li>
+				<li>
+					<a href="/contato" class="footer-link">Contato</a>
+				</li>
+				<li>
+					<a href="/donation" class="footer-link">Doar</a>
+				</li>
+			</ul>
+	
+			<!-- Lista de links do blog-->
+			<ul class="footer-list">
+				<li>
+					<h3>Informações</h3>
+				</li>
+				<li>
+					<a href="/termosDeUso" class="footer-link">Termos de Uso</a>
+				</li>
+				<li>
+					<a href="/privacidade" class="footer-link">Política de Privacidade</a>
+				</li>
+			</ul>
+		</div>
+	
+		<!-- Direitos autorais-->
+		<div class="copyright">
+			Cem Vezes Mais © 2023 todos direitos reservados
+		</div>
+	</footer>
+	<div vw class="enabled">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+		  <div class="vw-plugin-top-wrapper"></div>
+		</div>
+	  </div>
+	  
+		<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	  <script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+		</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+<script src="https://www.drcode.com.br/nofollow/aviso-cookies/drcode.cookies.js"></script>
+<script>
+  avisoCookiesDrcode({
+    message:'Utilizamos cookies para que você tenha a melhor experiência em nosso site. Para saber mais acesse nossa página de Política de Privacidade',
+    backgroundColor:'rgba(255,255,255,0.95)',
+    textColor:'#666666',
+    buttonBackgoundColor:'#f7a103',
+    buttonHoverBackgoundColor:'#0a6b16',
+    buttonTextColor:'#ffffff'
+})
+</script>
+
+</body>
+</html>
