@@ -72,9 +72,7 @@ O projeto Cem Vezes Mais tem a missão de, por meio do esporte, cultura e educa�
 <br>
 <a href="https://www.figma.com/file/NftgAU3DyKo483b8sWWfc1/Wireframe-Cem-Vezes-Mais?type=design&node-id=0-1&mode=design&t=yMRMjLfpaybSV5wA-0">Wireframe</a>
 <br>
-<a href="https://drive.google.com/file/d/1dA7Nr2WhBEhJ9HYHmDwndE8d373P7Ljg/view?usp=sharing">- Design System.</a>
-
-- Design System.
+<a href="https://drive.google.com/file/d/1dA7Nr2WhBEhJ9HYHmDwndE8d373P7Ljg/view?usp=sharing">Design System</a>
 
 
 ## 💻 Configuração para Desenvolvimento
