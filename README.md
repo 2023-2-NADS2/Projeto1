@@ -4,13 +4,9 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Cem Vezes Mais
-
-<p align="center">
-<img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0"></a>
-</p>
 
 ## WWC - WebWave Creations Logo projeto
+<img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0">
 
 <b> Integrantes: </b>
 
@@ -42,7 +38,7 @@
 ## 💬 Descrição do Projeto
 
 <p align="center">
-<img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0">
+src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0">
 -
 </p>
 
