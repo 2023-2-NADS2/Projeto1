@@ -133,10 +133,6 @@ node app.js
   &emsp;|-->Design System.pdf<br>
   &emsp;|-->GRUPO 09 - Projetos de Extensão.pdf<br>
   &emsp;|-->PI_CemVezesMais.pdf<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
