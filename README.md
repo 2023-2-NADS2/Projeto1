@@ -120,6 +120,9 @@ node app.js
 * 0.3.0 - 10/11/2023
     * Revisão.  
     * Trabalho na reta final.
+* 0.3.1 - 20/11/2023
+    * Revisão.  
+    * Trabalho finalizado.
  
  
 ## 🛠 Estrutura de pastas
