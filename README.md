@@ -1,13 +1,13 @@
 # FECAP - Fundação de Comércio Álvares Penteado
-<br>
+
 <p align="center">
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"  width="275rem" height="255rem"></a>
 </p>
-<br>
+
 
 
 ## WWC - WebWave Creations 
-<br>
+
 <p align="center">
 <img src="Imagens/Logo/jpg.jfif" alt="WWC" border="0"  width="350px" height="275px">
 -
@@ -24,29 +24,28 @@
 <a href="www.linkedin.com/in/nicolle-costa-a85100211">Nicolle Costa</a>
 <br>
 <a href="">Paulo Carvalho</a>
-<br>
 
 
 ## Professores Orientadores: 
-<br>
+
 <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>
 <br>
 <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins Lopes</a>
 <br>
 <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>
-<br>
+
 
 
 
 ## 💬 Descrição do Projeto
-<br>
+
 <p align="center">
 <img src="Imagens/Logo/logoONG.jpg" alt="Cem Vezes Mais" border="0" width="300rem" height="300rem">
 -
 </p>
 
 O projeto Cem Vezes Mais tem a missão de, por meio do esporte, cultura e educação, ajudar na transformação de vidas e inclusão social de crianças, adolescentes e jovens de comunidades vulneráveis. Com a visão de resgatar sonhos e restabelecer a esperança de crianças, adolescentes e jovens em situação de vulnerabilidade, afim de oferecer-lhes um presente mais digno e um futuro mais promissor.
-<br>
+
 
 ## 🛠️ Desenvolvimento
 
