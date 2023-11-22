@@ -73,7 +73,7 @@ Tendo esses motivos em vista, a aplicação produzida possui o objetivo de maxim
 <br>
 <a href="https://www.figma.com/file/NftgAU3DyKo483b8sWWfc1/Wireframe-Cem-Vezes-Mais?type=design&node-id=0-1&mode=design&t=yMRMjLfpaybSV5wA-0">Wireframe</a>
 <br>
-<a href="https://drive.google.com/file/d/1dA7Nr2WhBEhJ9HYHmDwndE8d373P7Ljg/view?usp=sharing">Design System</a>
+<a href="https://www.figma.com/file/5wBxkQleEoz2twnFkwZEy3/Design-System?type=design&node-id=0-1&mode=design&t=PiMCMwEYwikmgArN-0">Design System</a>
 
 
 ## 💻 Configuração para Desenvolvimento
