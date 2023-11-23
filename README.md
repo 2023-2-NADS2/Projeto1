@@ -67,7 +67,7 @@ Tendo esses motivos em vista, a aplicação produzida possui o objetivo de maxim
 
 - Docker: Plataforma para criação de ambientes isolados.
 
-<b>UX/UI Design</b>
+<b>UI Design</b>
 
 <a href="https://www.figma.com/file/4tmVlAvAYSVIkPdUMiU1Ph/Prot%C3%B3tipo-100X%2B?type=design&node-id=322-104&mode=design&t=qjlBxHsj15hDznlc-0">Protótipo</a>
 <br>
